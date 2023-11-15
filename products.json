@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Camiseta",
+        "description": "Camiseta de algodón",
+        "price": 15.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "TS001",
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "title": "Pantalones",
+        "description": "Pantalones vaqueros",
+        "price": 29.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "PN002",
+        "stock": 30
+    },
+    {
+        "id": 3,
+        "title": "Zapatos",
+        "description": "Zapatos deportivos",
+        "price": 49.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "ZP003",
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "title": "Mochila",
+        "description": "Mochila resistente al agua",
+        "price": 39.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "MC004",
+        "stock": 15
+    },
+    {
+        "id": 5,
+        "title": "Gorra",
+        "description": "Gorra ajustable",
+        "price": 9.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "GR005",
+        "stock": 40
+    },
+    {
+        "id": 6,
+        "title": "Reloj",
+        "description": "Reloj analógico",
+        "price": 79.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "RL006",
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "title": "Bufanda",
+        "description": "Bufanda suave",
+        "price": 19.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "BF007",
+        "stock": 25
+    },
+    {
+        "id": 8,
+        "title": "Libreta",
+        "description": "Libreta de notas",
+        "price": 5.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "LB008",
+        "stock": 60
+    },
+    {
+        "id": 9,
+        "title": "Botella de agua",
+        "description": "Botella de agua reutilizable",
+        "price": 12.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "BW009",
+        "stock": 35
+    },
+    {
+        "id": 10,
+        "title": "Lámpara",
+        "description": "Lámpara de escritorio LED",
+        "price": 34.99,
+        "thumbnail": "https://via.placeholder.com/150",
+        "code": "LM010",
+        "stock": 18
+    }
+]
