@@ -24,7 +24,20 @@ class CartManager {
             this.productsList = [];
         }
     }
+    getProductsByCartId(cid) {
+        const cart = this.carts.find(cart => cart.cid === cid);
 
+        if (!cart) {
+            return []; // Si el carrito no se encuentra, devuelve una lista vacía de productos
+        }
+
+        const products = cart.products.map(pid => {
+            const product = this.productsList.find(p => p.pid === pid);
+            return { ...product, quantity: 1 }; // Asume que la cantidad es 1 por producto en este caso
+        });
+
+        return products;
+    }
     // Guardar un nuevo carrito en el archivo sin sobrescribir
     saveNewCartToDisk(newCarrito) {
         this.carts.push(newCarrito); // Agregar el nuevo carrito a la lista existente

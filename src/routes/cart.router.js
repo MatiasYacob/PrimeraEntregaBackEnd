@@ -36,6 +36,20 @@ router.post("/:cid/product/:pid", async (req, res) => {
 
     return res.status(200).json({ message: result.message });
 });
+router.get("/:cid", (req, res) => {
+    const { cid } = req.params;
 
+    // Obtener el carrito correspondiente al CID proporcionado
+    const cart = manager.getCartByCid(parseInt(cid));
+
+    if (!cart) {
+        return res.status(404).json({ message: "Carrito no encontrado" });
+    }
+
+    // Obtener los detalles de los productos pertenecientes a este carrito
+    const productsInCart = manager.getProductsByCartId(parseInt(cid));
+
+    res.status(200).json({ cart, products: productsInCart });
+});
 
 export default router;
